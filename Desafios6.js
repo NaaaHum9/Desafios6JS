@@ -15,3 +15,11 @@ HolaMundo();
  * en la consola
  */
 
+alert('Funcion con nombre');
+let nombrePromt = prompt("Ingrese su nombre: ");
+
+function HolaNombre(nombre) {
+    console.log(`Hola ${nombre}!`);
+}
+
+HolaNombre(nombrePromt)
