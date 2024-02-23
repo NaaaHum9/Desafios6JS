@@ -39,3 +39,19 @@ function DobleNumero(numeroInput) {
 dobleNum = DobleNumero(numeroInput);//aqui se invoca a la funcion ya no hasta abajo
 //Se muestra un mensaje con el resultado
 alert(`Doble del numero ${numeroInput} es ${dobleNum}`);
+
+/**
+ * 4 - Crear una funcion que reciba sod numero como parametro y devuelva su promedio
+ */
+
+alert('Promedio de dos numeros');
+let numero1 = parseInt(prompt("Ingrese el primer numero: "));
+let numero2 = parseInt(prompt("Ingrese el segundo numero: "));
+
+function promedioNumeros(numero1, numero2) {
+    let promedio = (numero1+numero2)/2;
+    return promedio;
+}
+
+let res = promedioNumeros(numero1, numero2);
+alert(`El promedio de los numeros ${numero1} y ${numero2} es: ${res}`);
