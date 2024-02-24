@@ -76,3 +76,19 @@ function numeroMayor(num1, num2) {
 
 let resultado = numeroMayor(num1, num2);
 alert(`El numero mayor entre ${num1} y ${num2} es ${resultado}`);
+
+/**
+ * 6 - Crear una funcion que reciba un numero como parametro, y devuelva el 
+ * resultado de multiplicar ese numero por si mismo
+*/
+
+alert('Numero multiplicado por si mismo');
+let numInput = parseInt(prompt("Ingrese un numero: "));
+
+function numeroPorSiMismo(numPara) {
+    let numMismo = numPara * numPara;
+    return numMismo;
+}
+
+let numResultado = numeroPorSiMismo(numInput);
+alert(`El numero ${numInput} multiplicado por si mismo es: ${numResultado}`);
