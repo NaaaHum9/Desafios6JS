@@ -55,3 +55,24 @@ function promedioNumeros(numero1, numero2) {
 
 let res = promedioNumeros(numero1, numero2);
 alert(`El promedio de los numeros ${numero1} y ${numero2} es: ${res}`);
+
+/**
+ * 5 - Crear funcion que reciba dos numeros y devulva el mayor de ellos
+ */
+
+alert('Numero mayor')
+let num1 = parseInt(prompt("Ingrese el primer numero: "));
+let num2 = parseInt(prompt("Ingrese el segundo numero: "));
+
+function numeroMayor(num1, num2) {
+    let numMayor;
+    if (num1 > num2) {
+        numMayor =  num1;
+    }else{
+        numMayor = num2;
+    }
+    return numMayor;
+}
+
+let resultado = numeroMayor(num1, num2);
+alert(`El numero mayor entre ${num1} y ${num2} es ${resultado}`);
